@@ -1,0 +1,70 @@
+  .custom-navbar {
+    background-color: #EDDFE0; /* Custom color */
+  }
+  .btn-custom {
+    background-color: #705C53;
+  }
+  .btn-custom:hover {
+    background-color: #8b776d; /* New color when hovering */
+    cursor: pointer; /* Makes the pointer appear as a hand */
+  }
+  .img-fluid {
+    width: 100%;  /* Ensures responsiveness */
+    max-height: 100%; /* Fills the container */
+    object-fit: cover; /* Adjust this to 'contain' or 'fill' depending on needs cover */ 
+  }
+  .miss-fajardose-regular {
+    font-family: "Miss Fajardose", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 { font-size: 80px; }
+  h2 { font-size: 50px; }
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+.light-text {
+    color: #EDDFE0;
+}
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #EDDFE0;  /* old IE */
+    background-color: #EDDFE0;  /* Modern Browsers */
+  }
+
+/* Style for SVG Logos */
+.svg-logo {
+  max-width: 60px; /* Default size for logos */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Horizontal spacing */
+  transition: transform 0.2s ease; /* Smooth scaling effect */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .svg-logo {
+      max-width: 80px; /* Smaller size for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .svg-logo {
+      max-width: 60px; /* Even smaller size for mobile */
+  }
+}
+

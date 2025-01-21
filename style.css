@@ -41,7 +41,7 @@
 }
 hr {
     border: none;
-    height: 5px;
+    height: 3px;
     /* Set the hr color */
     color: #EDDFE0;  /* old IE */
     background-color: #EDDFE0;  /* Modern Browsers */
@@ -49,22 +49,33 @@ hr {
 
 /* Style for SVG Logos */
 .svg-logo {
-  max-width: 60px; /* Default size for logos */
+  width: 12%; /* Default size for logos */
   height: auto; /* Maintain aspect ratio */
   margin: 0 10px; /* Horizontal spacing */
   transition: transform 0.2s ease; /* Smooth scaling effect */
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .svg-logo {
-      max-width: 80px; /* Smaller size for tablets */
-  }
-}
 
-@media (max-width: 576px) {
-  .svg-logo {
-      max-width: 60px; /* Even smaller size for mobile */
-  }
+.video-container{
+  position: relative;
+      display: inline-block;
+      margin: 0%;
 }
-
+.mute-button {
+  position: absolute;
+      bottom: 3%; /* Relative to the container */
+      right: 3%; /* Relative to the container */
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      border: none;
+      padding: 0.5em 1em; /* Scales with font size */
+      margin-right: 1em;
+      font-size: 0.7em; /* Relative to the container's font size */
+      cursor: pointer;
+      border-radius: 0.5em; /* Scales proportionally */
+      opacity: 30%;
+}
+.video-container:hover .mute-button{
+  opacity: 100%;
+}

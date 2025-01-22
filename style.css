@@ -81,3 +81,6 @@ hr {
 .video-container:hover .mute-button{
   opacity: 100%;
 }
+.image-banner{
+  height: 50vh;
+}

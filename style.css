@@ -41,15 +41,17 @@
 }
 hr {
     border: none;
+    fill: black;
     height: 3px;
+    opacity: 20%;
     /* Set the hr color */
-    color: #EDDFE0;  /* old IE */
-    background-color: #EDDFE0;  /* Modern Browsers */
+    color: black;  /* old IE */
+    background-color: black;  /* Modern Browsers */
   }
 
 /* Style for SVG Logos */
 .svg-logo {
-  width: 12%; /* Default size for logos */
+  width: 10%; /* Default size for logos */
   height: auto; /* Maintain aspect ratio */
   margin: 0 10px; /* Horizontal spacing */
   transition: transform 0.2s ease; /* Smooth scaling effect */

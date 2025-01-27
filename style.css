@@ -89,3 +89,17 @@ hr {
   border-radius: 20px; /* Makes the corners rounded */
   overflow: hidden;
 }
+
+/* animation attemnpt */
+
+.hidden-element {
+  opacity: 0;
+  transform: translateY(50px); /* Start off-screen */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.hidden-element.visible {
+  opacity: 1;
+  transform: translateY(0); /* Move to the normal position */
+}
+

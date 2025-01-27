@@ -41,19 +41,19 @@
 }
 hr {
     border: none;
-    fill: black;
+    fill: rgb(219, 219, 219);
     height: 3px;
     opacity: 20%;
     /* Set the hr color */
-    color: black;  /* old IE */
-    background-color: black;  /* Modern Browsers */
+    color: rgb(223, 223, 223);  /* old IE */
+    background-color: rgb(225, 225, 225);  /* Modern Browsers */
   }
 
 /* Style for SVG Logos */
 .svg-logo {
-  width: 10%; /* Default size for logos */
+  width: 100%; /* Default size for logos */
   height: auto; /* Maintain aspect ratio */
-  margin: 0 10px; /* Horizontal spacing */
+  margin: 0; /* Horizontal spacing */
   transition: transform 0.2s ease; /* Smooth scaling effect */
 }
 
@@ -83,4 +83,9 @@ hr {
 }
 .image-banner{
   height: 50vh;
+}
+.video{
+  border: 4px solid #EDDFE0;
+  border-radius: 20px; /* Makes the corners rounded */
+  overflow: hidden;
 }

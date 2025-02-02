@@ -9,44 +9,69 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!--Navbar-->
-<section style="background-color: #EDDFE0;">
-    <div class="container">
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h3>UGC</h3 ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<section style="background-color: #fffaf6;">
+    <nav class="navbar custom-navbar fixed-top justify-content-center d-none d-md-inline">
+        <div class="container-fluid align-items-center px-5">
+            <a class="navbar-brand" href="#">UGC</a>
+            <a class="nav-link active px-2" aria-current="page" href="#video-conent">Videos</a>
+            <a class="nav-link active px-2" aria-current="page" href="#about">About me</a>
+            <a class="nav-link active px-2" aria-current="page" href="#partners">Partners</a>
+            <a class="nav-link active px-2" aria-current="page" href="#contact-form">Contact info</a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: #fffaf6;">
+        <div class="container-fluid d-md-none">
+          <a class="navbar-brand" href="#">UGC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#video-conent">Videos</a>
+                <a class="nav-link active" aria-current="page" href="#video-conent">Videos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About me</a>
+                <a class="nav-link" href="#about">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#partners">Partners</a>
+                <a class="nav-link" href="#partners">Partners</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contact-form">Contact info</a>
+                <a class="nav-link active" href="#contact-form">Contact info</a>
               </li>
             </ul>
-    
-            
           </div>
         </div>
       </nav>
-    </div>
 </section>
 <!--Main Banner-->
-    <section style=background-color:#F5F5F7>
-        <div class="container p-0 d-flex ">
+    <section class="main-section mt-5" style="background-color:#F5F5F7">
+        <div class="container-fluid p-0">
+            <img class="banner-image img-fluid d-inline-block w-100" src="./images/Banner v2.jpg" alt="">
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-2 align-items-center">
+                <div class="col-md-7">
+                    <h1 class="anton-regular">TARA MILLAMENA</h1>
+                </div>
+                <div class="col-md-5 pt-3">
+                    <h3 class="anton-regular">User Generated Content Creator</h3>
+                        <p class="lead my-3">As a full-time UGC creator with an interest in sharing my
+                            lifestyle on social media, I thrive on creating captivating
+                            content that connects with audiences. </p>
+                        <a href="#video-conent">
+                            <button class="btn btn-outline-secondary btn-lg mb-5 mt-3 btn-custom:hover" data-bs-toggle="modal" data-bs-target="#start">My Videos</button>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- <div class="container p-0 d-flex ">
                 <div class = "order-last order-md-first pt-5 mx-sm-0 text-sm-start  ">
                     <div class="container">
                         <h1 class="bebas-neue-regular">TARA MILLAMENA</h1>
@@ -64,7 +89,7 @@
         </div>
         <div class="container-fluid p-0 d-lg-none">
             <img class="img-fluid w-100"  src="./images/Banner v1.0.png" alt="a person shopping online">  
-        </div>
+        </div> -->
     </section>
 <!--move image for small screens-->   
 <section style="background-color: #F5F5F7;">
@@ -72,7 +97,7 @@
 </section> 
     
 <!--Features-->
-    <section class="py-1" style="background-color: #EDDFE0;" id="features">
+    <section class="py-1" style="background-color: #c8c2b2;" id="features">
         <div class="container  py-2" id="featured-3">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
               <div class="feature col">
@@ -103,13 +128,13 @@
     </section>
 <!--Video Samples-->
 <!--Beauty-->
-    <section id="video-conent" style="background-color:#9c9b9b;background-image: url(./svg/flowers.svg); background-repeat: repeat; ">
+    <section id="video-conent" style="background-color: white ;background-image: url(./svg/flowers.svg); background-repeat: repeat; ">
         <!--  -->
             <div class="container justify-content-between embed-responsive embed-responsive-9by16">
-                <div class="container text-center pt-5 pb-3 bebas-neue-regular text-light"><h2>My UGC Videos</h2></div>
+                <div class="container text-center pt-5 pb-3 bebas-neue-regular text-dark"><h2>MY UGC VIDEOS</h2></div>
                 
                 <div class="row pb-5 px-0 hidden-element ">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-light" style="color: #F5F5F7;"><hr> Beauty</h3>
+                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark" style="color: #F5F5F7;"><hr> Beauty</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
                                     <video class="object-fit-fill video"  autoplay muted loop loading="lazy" loading="lazy">
@@ -149,7 +174,7 @@
                 </div>
 <!--Fashion-->       
                     <div class="row pb-5 px-3 hidden-element">
-                        <h3 class="mx-2 dm-serif-text-regular mb-5 text-light"><hr>Fashion</h3>
+                        <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Fashion</h3>
                             <div class="col-lg-3 col-6">
                                     <div class="container video-container">
                                         <video class="object-fit-fill video" autoplay muted loop loading="lazy" loading="lazy">
@@ -191,7 +216,7 @@
                     
                 
                 <div class="row pb-5 px-3 hidden-element">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-light"><hr>Food & Drink</h3>
+                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Food & Drink</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
                                     <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
@@ -233,7 +258,7 @@
 <!--Health & Wellness-->
 
                 <div class="row pb-5 px-3 hidden-element">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-light"><hr>Health & Wellness</h3>
+                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Health & Wellness</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
                                     <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
@@ -274,7 +299,7 @@
 <!--Home-->
 
 <div class="row pb-5 px-3 hidden-element">
-    <h3 class="mx-2 dm-serif-text-regular mb-5 text-light"><hr>Home</h3>
+    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Home</h3>
         <div class="col-lg-3 col-6">
                 <div class="container video-container">
                     <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
@@ -315,7 +340,7 @@
 <!--Doggie/compaigns-->
 
 <div class="row pb-5 px-3 hidden-element">
-    <h3 class="mx-2 dm-serif-text-regular mb-5 text-light"><hr>Pet Products</h3>
+    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Pet Products</h3>
         <div class="col-lg-3 col-6">
                 <div class="container video-container">
                     <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
@@ -361,46 +386,37 @@
            
 
     </section>
-<section style="background-color: #9c9b9b; background-image: url(svg/flowers.svg);">
-    <img class="image-fluid" style="width:100%; rotate: 180deg;" src="./svg/waves.svg">
-</section>
+
 <!--About me-->
-<section style="background-color: #EDDFE0;" id="about">
-    <div class="container justify-content-center">
+<section style="background-color: #c8c2b2;" id="about">
+    <div class="container-fluid justify-content-center">
         <div class="row py-5 px-md-0 px-2 align-items-center">
             <!-- Text Column -->
-            <div class="col-12 col-md-6 order-md-first text-center text-md-start">
-                <h2 class="fs-2 text-body-emphasis">Hey there! <span class="text-body-secondary">I’m Tara.</span></h2>
-                <p class="lead">
+            <div class="col-12 col-md-7 ps-md-5 order-md-first text-start">
+                <h2 class="bebas-neue-regular">Hey there!<br> <span class="text-body-secondary">I’m Tara.</span></h2>
+                <p class="dm-serif-text-regular">
                     I'm a full-time UGC creator based in beautiful sunny Southern California. You’ll find me sharing my lifestyle and fashion across multiple platforms like Instagram, TikTok, YouTube, and Amazon, each with its own unique strategies and trends that I’m well-versed in.
 
                     Travel is another passion of mine—whether it’s a spontaneous road trip or flying off to explore a new corner of the world, I’m always on the move. This sense of adventure also fuels my creative side, as I’m currently working on my first fantasy fiction novel!
 
                     With a proven track record of 5-star reviews and long-term partnerships, I specialize in crafting content that strengthens brand presence and resonates authentically with audiences. Let’s collaborate and create something together!
                 </p>
+                <div class="col-6 text-center">
+                    <div class="d-flex justify-content-center align-items-center flex-nowrap">
+                        <a href="https://www.tiktok.com/@taramillamena" target="_blank">
+                        <img src="./png-logos/TikTok.png" alt="TikTok Logo" class="svg-logo"></a>
+                        <a href="https://www.instagram.com/taramillamena" target="_blank">
+                        <img src="./png-logos/instagram.png" alt="Instagram Logo" class="svg-logo"></a>
+                        <a href="https://www.youtube.com/taramillamena" target="_blank">
+                        <img src="./png-logos/YouTube.png" alt="YouTube Logo" class="svg-logo"></a>
+                        <a href="https://www.amazon.com/shop/influencer-baadac8a" target="_blank">
+                        <img src="./png-logos/amazon.png" alt="Amazon Logo" class="svg-logo"></a>
+                    </div>
             </div>
-
+            </div>
             <!-- Image and Logos Column -->
-            <div class="col-12 col-md-6 order-md-last">
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="./images/Collage.png" class="img-fluid" style="max-width: 60%;" alt="Collage">
-                    </div>
-                </div>
-                <div class="row mt-4 justify-content-center">
-                    <div class="col-8 text-center">
-                        <div class="d-flex justify-content-center align-items-center flex-nowrap">
-                            <a href="https://www.tiktok.com/@taramillamena" target="_blank">
-                            <img src="./png-logos/TikTok.png" alt="TikTok Logo" class="svg-logo"></a>
-                            <a href="https://www.instagram.com/taramillamena" target="_blank">
-                            <img src="./png-logos/instagram.png" alt="Instagram Logo" class="svg-logo"></a>
-                            <a href="https://www.youtube.com/taramillamena" target="_blank">
-                            <img src="./png-logos/YouTube.png" alt="YouTube Logo" class="svg-logo"></a>
-                            <a href="https://www.amazon.com/shop/influencer-baadac8a" target="_blank">
-                            <img src="./png-logos/amazon.png" alt="Amazon Logo" class="svg-logo"></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 col-md-5 order-md-last text-center">
+                <img src="./images/Collage.png" class="img-fluid" style="height: 70vh; width: auto;" alt="Collage">
             </div>
         </div>
     </div>
@@ -422,7 +438,7 @@
         </div>
       </div>
 </section>
-<section style="background-color: #705C53;" id="contact-form">
+<section style="background-color: black;" id="contact-form">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-9 col-md-7">
@@ -469,7 +485,7 @@
 
 </section>
 <!--Footer-->
-<section style="background-color: #EDDFE0;">
+<section style="background-color: #fffaf6;">
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 py-4 border-top">
         <p class="col-md-4 mb-0 text-body-secondary">© 2025 Tara Millamena</p>

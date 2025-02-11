@@ -17,7 +17,7 @@
 <section style="background-color: #fffaf6;">
     <nav class="navbar custom-navbar fixed-top justify-content-center d-none d-md-inline">
         <div class="container-fluid align-items-center px-5">
-            <a class="navbar-brand" href="#">UGC</a>
+            <a class="navbar-brand active" href="#">UGC</a>
             <a class="nav-link active px-2" aria-current="page" href="#video-conent">Videos</a>
             <a class="nav-link active px-2" aria-current="page" href="#about">About me</a>
             <a class="nav-link active px-2" aria-current="page" href="#partners">Partners</a>
@@ -33,7 +33,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#video-conent">Videos</a>
+                <a class="nav-link" href="#video-conent">Videos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About me</a>
@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#partners">Partners</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#contact-form">Contact info</a>
+                <a class="nav-link" href="#contact-form">Contact info</a>
               </li>
             </ul>
           </div>
@@ -50,12 +50,12 @@
       </nav>
 </section>
 <!--Main Banner-->
-    <section class="main-section mt-5" style="background-color:#F5F5F7">
+    <section class="main-section mt-5 p-0" style="background-color:#F5F5F7">
         <div class="container-fluid p-0">
             <img class="banner-image img-fluid d-inline-block w-100" src="./images/Banner v2.jpg" alt="">
         </div>
         <div class="container-fluid">
-            <div class="row mt-2 align-items-center">
+            <div class="row mt-2">
                 <div class="col-md-7">
                     <h1 class="anton-regular">TARA MILLAMENA</h1>
                 </div>
@@ -71,33 +71,9 @@
             </div>
         </div>
     </section>
-        <!-- <div class="container p-0 d-flex ">
-                <div class = "order-last order-md-first pt-5 mx-sm-0 text-sm-start  ">
-                    <div class="container">
-                        <h1 class="bebas-neue-regular">TARA MILLAMENA</h1>
-                        <h3 class="bebas-neue-regular">- UGC Creator -  </h3>
-                        <p class="lead my-3">As a full-time UGC creator with an interest in sharing my
-                            lifestyle on social media, I thrive on creating captivating
-                            content that connects with audiences. </p>
-                        <a href="#video-conent">
-                            <button class="btn btn-custom btn-lg mb-5 mt-3 text-light btn-custom:hover" data-bs-toggle="modal" data-bs-target="#start">My Videos</button>
-                        </a>
-                    </div>
-                    
-                </div>
-                <img class=" d-lg-inline d-none image-banner"  src="./images/Banner v1.0.png" alt="a person shopping online">
-        </div>
-        <div class="container-fluid p-0 d-lg-none">
-            <img class="img-fluid w-100"  src="./images/Banner v1.0.png" alt="a person shopping online">  
-        </div> -->
-    </section>
-<!--move image for small screens-->   
-<section style="background-color: #F5F5F7;">
-    <img class="image-fluid" style="width:100%; rotate: 180deg;" src="./svg/waves.svg">
-</section> 
-    
+
 <!--Features-->
-    <section class="py-1" style="background-color: #c8c2b2;" id="features">
+    <section class="py-1 p-0" style="background-color: #c8c2b2;" id="features">
         <div class="container  py-2" id="featured-3">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
               <div class="feature col">
@@ -129,16 +105,14 @@
 <!--Video Samples-->
 <!--Beauty-->
     <section id="video-conent" style="background-color: white ;background-image: url(./svg/flowers.svg); background-repeat: repeat; ">
-        <!--  -->
             <div class="container justify-content-between embed-responsive embed-responsive-9by16">
                 <div class="container text-center pt-5 pb-3 bebas-neue-regular text-dark"><h2>MY UGC VIDEOS</h2></div>
-                
+                <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark" style="color: #F5F5F7;"><hr> Beauty</h3>
                 <div class="row pb-5 px-0 hidden-element ">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark" style="color: #F5F5F7;"><hr> Beauty</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video"  autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Beauty/HotTools.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2" autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate">
+                                        <source src="./videos/Beauty/HotTools.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -146,8 +120,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Beauty/iHerb.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate">
+                                    <source src="./videos/Beauty/iHerb.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -155,8 +129,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Beauty/Spoiled.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate">
+                                    <source src="./videos/Beauty/Spoiled.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -164,8 +138,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Beauty/Toppik.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate">
+                                    <source src="./videos/Beauty/Toppik.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -173,12 +147,12 @@
                     </div>
                 </div>
 <!--Fashion-->       
+                <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Fashion</h3>
                     <div class="row pb-5 px-3 hidden-element">
-                        <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Fashion</h3>
                             <div class="col-lg-3 col-6">
                                     <div class="container video-container">
-                                        <video class="object-fit-fill video" autoplay muted loop loading="lazy" loading="lazy">
-                                            <source src="videos/Fashion/DSW2.mp4" type="video/mp4">
+                                        <video class="object-fit-fill video mt-2" autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                            <source src="./videos/Fashion/DSW2.webm" type="video/webm">
                                         </video>
                                         <button class="mute-button">Sound: Off
                                         </button>
@@ -186,8 +160,8 @@
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video" autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Fashion/Good For Sunday.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2" autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                        <source src="./videos/Fashion/Good For Sunday.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -195,8 +169,8 @@
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Fashion/Heiress.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                        <source src="./videos/Fashion/Heiress.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -204,8 +178,8 @@
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Fashion/Wantable.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                        <source src="./videos/Fashion/Wantable.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -214,13 +188,12 @@
                     </div>
  <!--Food & Drink-->                   
                     
-                
+            <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Food & Drink</h3>
                 <div class="row pb-5 px-3 hidden-element">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Food & Drink</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Food & Drink/Lenny & Larrys EDIT.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                        <source src="./videos/Food & Drink/Lenny & Larrys EDIT.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -228,8 +201,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Food & Drink/PathVideo.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Food & Drink/PathVideo.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -237,8 +210,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Food & Drink/Personal Trainer Food.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Food & Drink/Personal Trainer Food.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -246,8 +219,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Food & Drink/WenteVineyards.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Food & Drink/WenteVineyards.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -256,13 +229,12 @@
                 </div>
                     
 <!--Health & Wellness-->
-
+            <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Health & Wellness</h3>
                 <div class="row pb-5 px-3 hidden-element">
-                    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Health & Wellness</h3>
                         <div class="col-lg-3 col-6">
                                 <div class="container video-container">
-                                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                        <source src="videos/Health & Wellness/Brita.mp4" type="video/mp4">
+                                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                        <source src="./videos/Health & Wellness/Brita.webm" type="video/webm">
                                     </video>
                                     <button class="mute-button">Sound: Off
                                     </button>
@@ -270,8 +242,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Health & Wellness/DailyElements.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Health & Wellness/DailyElements.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -279,8 +251,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Health & Wellness/Dr. Mercola.mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Health & Wellness/Dr. Mercola.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -288,8 +260,8 @@
                         </div>
                         <div class="col-lg-3 col-6">
                             <div class="container video-container">
-                                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                                    <source src="videos/Health & Wellness/Pure Power .mp4" type="video/mp4">
+                                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                                    <source src="./videos/Health & Wellness/Pure Power.webm" type="video/webm">
                                 </video>
                                 <button class="mute-button">Sound: Off
                                 </button>
@@ -297,13 +269,12 @@
                     </div>
                 </div>
 <!--Home-->
-
+<h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Home</h3>
 <div class="row pb-5 px-3 hidden-element">
-    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Home</h3>
         <div class="col-lg-3 col-6">
                 <div class="container video-container">
-                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                        <source src="videos/Home/Lumic 8.38.27 PM.mp4" type="video/mp4">
+                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                        <source src="./videos/Home/Lumic 8.38.27 PM.webm" type="video/webm">
                     </video>
                     <button class="mute-button">Sound: Off
                     </button>
@@ -311,8 +282,8 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Home/OxiClean 8.38.27 PM.mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Home/OxiClean 8.38.27 PM.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
@@ -320,8 +291,8 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Home/OxiClean copy.mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Home/OxiClean copy.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
@@ -329,8 +300,8 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Home/Vlog Style .mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Home/Vlog Style.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
@@ -338,13 +309,12 @@
     </div>
 </div>
 <!--Doggie/compaigns-->
-
+<h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Pet Products</h3>
 <div class="row pb-5 px-3 hidden-element">
-    <h3 class="mx-2 dm-serif-text-regular mb-5 text-dark"><hr>Pet Products</h3>
         <div class="col-lg-3 col-6">
                 <div class="container video-container">
-                    <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                        <source src="videos/Bentley /Active.mp4" type="video/mp4">
+                    <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                        <source src="./videos/Bentley /Active.webm" type="video/webm">
                     </video>
                     <button class="mute-button">Sound: Off
                     </button>
@@ -352,8 +322,8 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Bentley /Bentley Boarding.mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Bentley /Bentley Boarding.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
@@ -361,8 +331,8 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Bentley /Ollie.mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Bentley /Ollie.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
@@ -370,38 +340,34 @@
         </div>
         <div class="col-lg-3 col-6">
             <div class="container video-container">
-                <video class="object-fit-fill video"   autoplay muted loop loading="lazy" loading="lazy">
-                    <source src="videos/Bentley /Petsafe.mp4" type="video/mp4">
+                <video class="object-fit-fill video mt-2"   autoplay muted loop controlsList="nodownload nofullscreen noplaybackrate" loading="lazy" loading="lazy">
+                    <source src="./videos/Bentley /Petsafe.webm" type="video/webm">
                 </video>
                 <button class="mute-button">Sound: Off
                 </button>
             </div>    
     </div>
-</div> 
-               
-
-
-                
-            </div>
-           
-
-    </section>
+</div>              
+</div>
+</section>
 
 <!--About me-->
-<section style="background-color: #c8c2b2;" id="about">
+<section style="background-color: white;" id="about">
     <div class="container-fluid justify-content-center">
-        <div class="row py-5 px-md-0 px-2 align-items-center">
+        
+        <div class="row p-0 align-items-center" >
             <!-- Text Column -->
-            <div class="col-12 col-md-7 ps-md-5 order-md-first text-start">
-                <h2 class="bebas-neue-regular">Hey there!<br> <span class="text-body-secondary">I’m Tara.</span></h2>
-                <p class="dm-serif-text-regular">
+            <div class="col-12 col-md-7 p-md-5 order-md-first text-start py-5 justify-content-center " style="background-color: #c8c2b2; height: 90vh;">
+                <h3 class="bebas-neue-regular" style="font-size: 3rem;">Hey there!<br> <span class="display-1 text-light" style="font-size: 6rem;">I’m Tara.</span></h3>
+                <p class="dm-serif-text-regular" style="font-size: 1rem;">
                     I'm a full-time UGC creator based in beautiful sunny Southern California. You’ll find me sharing my lifestyle and fashion across multiple platforms like Instagram, TikTok, YouTube, and Amazon, each with its own unique strategies and trends that I’m well-versed in.
 
                     Travel is another passion of mine—whether it’s a spontaneous road trip or flying off to explore a new corner of the world, I’m always on the move. This sense of adventure also fuels my creative side, as I’m currently working on my first fantasy fiction novel!
 
                     With a proven track record of 5-star reviews and long-term partnerships, I specialize in crafting content that strengthens brand presence and resonates authentically with audiences. Let’s collaborate and create something together!
                 </p>
-                <div class="col-6 text-center">
+                <div class="col-8 text-center py-0 py-lg-5">
+                    <h4 class="display-4 bebas-neue-regular text-start text-light ">My Social Channels:</h4>
                     <div class="d-flex justify-content-center align-items-center flex-nowrap">
                         <a href="https://www.tiktok.com/@taramillamena" target="_blank">
                         <img src="./png-logos/TikTok.png" alt="TikTok Logo" class="svg-logo"></a>
@@ -412,18 +378,20 @@
                         <a href="https://www.amazon.com/shop/influencer-baadac8a" target="_blank">
                         <img src="./png-logos/amazon.png" alt="Amazon Logo" class="svg-logo"></a>
                     </div>
-            </div>
+                </div>
             </div>
             <!-- Image and Logos Column -->
-            <div class="col-12 col-md-5 order-md-last text-center">
-                <img src="./images/Collage.png" class="img-fluid" style="height: 70vh; width: auto;" alt="Collage">
-            </div>
+            <div class="col-12 col-md-5 order-md-last p-0 d-flex" style="background-color: white; height: 90vh;">
+                <img src="./images/Aboutme.JPG" class="img-fluid h-100" style="object-fit: cover;" alt="Collage">
+            </div>            
+            
         </div>
     </div>
 </section>
 
 <!--Brands-->
-<section id="partners"style="background-color: #F5F5F7;">
+<section class="p-0"id="partners" style="background-color: white;">
+    
     <div class="px-4 py-5 text-center">
         <h1 class="display-5 bebas-neue-regular pb-4">Brands I've worked with</h1>
         <div class="col-lg-6 mx-auto">
@@ -438,30 +406,33 @@
         </div>
       </div>
 </section>
-<section style="background-color: black;" id="contact-form">
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-9 col-md-7">
-        <form id="emailForm" class="text-center">
-            <h2 class="text-light">Let's collaborate</h2>
+<!--email form-->
+<section style="background-color:black" id="contact-form">
+    <div class="container-fluid py-5">
+        <div class="row justify-content-center px-0">
+            <div class="col-9 col-md-7 p-0">
+                <form class="p-0" id="emailForm" class="text-center">
+                    <h2 class="text-light text-center">Let's collaborate</h2>
 
-            <!-- Sender's Email -->
-            <label class="form-label py-3 text-light lead" for="email">Your Email:</label>
-            <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <!-- Sender's Email -->
+                    <label class="form-label py-3 text-light lead" for="email">Your Email:</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email" required>
 
-            <!-- Subject -->
-            <label class="form-label py-3 text-light lead" for="subject">Subject:</label>
-            <input class="form-control" type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                    <!-- Subject -->
+                    <label class="form-label py-3 text-light lead" for="subject">Subject:</label>
+                    <input class="form-control" type="text" id="subject" name="subject" placeholder="Enter subject" required>
 
-            <!-- Main Body -->
-            <label class="form-label py-3 text-light lead" for="body">Message:</label>
-            <textarea class="form-control" id="body" name="body" placeholder="Write your message here..." required></textarea>
+                    <!-- Main Body -->
+                    <label class="form-label py-3 text-light lead" for="body">Message:</label>
+                    <textarea class="form-control" id="body" name="body" placeholder="Write your message here..." required></textarea>
 
-            <div class="container text-center">    <!-- Submit Button -->
-                <button class="btn btn-light my-5" type="submit">Send Email</button>
-            </div>        
-        </form>
-
+                    <div class="container text-center">    <!-- Submit Button -->
+                        <button class="btn btn-light my-5" type="submit">Send Email</button>
+                    </div>        
+                </form>
+            </div>
+        </div>
+    </div>
         <script>
             document.getElementById('emailForm').addEventListener('submit', function(event) {
                 event.preventDefault(); // Prevent actual form submission
@@ -479,14 +450,12 @@
                 window.location.href = mailtoLink;
             });
         </script>
-    </div>
-</div>
-</div>
+
 
 </section>
 <!--Footer-->
 <section style="background-color: #fffaf6;">
-    <div class="container">
+    <div class="container p-0">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 py-4 border-top">
         <p class="col-md-4 mb-0 text-body-secondary">© 2025 Tara Millamena</p>
     
@@ -503,7 +472,7 @@
         </footer>
     </div>
 </section>
-    <script src ="script.js"></script>
+    <script src ="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

@@ -22,8 +22,8 @@
     font-weight: 400;
     font-style: normal;
   }
-  h1 { font-size: 6rem; }
-  h2 { font-size: 80px; }
+  h1 { font-size: 4rem; }
+  h2 { font-size: 3rem; }
   h3 { font-size: 30px; }
 
   .dm-serif-text-regular {
@@ -42,12 +42,12 @@
 }
 hr {
     border: none;
-    fill: rgb(219, 219, 219);
+    fill: black;
     height: 3px;
-    opacity: 80%;
+    opacity: 100%;
     /* Set the hr color */
-    color: rgb(223, 223, 223);  /* old IE */
-    background-color: rgb(225, 225, 225);  /* Modern Browsers */
+    color: black;  /* old IE */
+    background-color: black;  /* Modern Browsers */
   }
 
 /* Style for SVG Logos */
@@ -68,7 +68,7 @@ hr {
 .mute-button {
   position: absolute;
       bottom: 3%; /* Relative to the container */
-      right: 3%; /* Relative to the container */
+      right: 1%; /* Relative to the container */
       background-color: rgba(0, 0, 0, 0.7);
       color: white;
       border: none;
@@ -92,6 +92,10 @@ hr {
   width: 110%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adds shadow */
 }
+video {
+  pointer-events: none;
+}
+
 
 /* animation attemnpt */
 
@@ -116,4 +120,3 @@ hr {
   font-weight: 400;
   font-style: normal;
 }
-

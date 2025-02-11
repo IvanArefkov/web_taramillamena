@@ -38,3 +38,18 @@ const observer = new IntersectionObserver((entries, observer) => {
 // Start observing each element
 elements.forEach(element => observer.observe(element));
 
+document.addEventListener("DOMContentLoaded", function () {
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach(video => {
+      // Prevent fullscreen on touch events (mobile swipes)
+      video.addEventListener("touchstart", function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+      });
+
+      // Prevent full-screen activation on play
+      video.setAttribute("playsinline", "");
+  });
+});
+

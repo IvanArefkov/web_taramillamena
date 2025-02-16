@@ -95,9 +95,9 @@ hr {
 video {
   will-change: transform;
 }
-/* video {
+video {
   pointer-events: none;
-} */
+}
 
 /* animation attemnpt */
 
@@ -125,4 +125,19 @@ video {
 
 .about-me-image {
   height: auto;
+}
+
+
+/* Completely disable hover effects on touch devices */
+@media (hover: none) {
+  .mute-button:hover {
+    background-color: transparent !important; /* Remove hover effect */
+    pointer-events: none; /* Prevent hover from interfering */
+  }
+}
+
+/* Prevent button from getting focused */
+.mute-button {
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+  touch-action: manipulation; /* Allow scrolling */
 }

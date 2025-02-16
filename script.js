@@ -52,4 +52,3 @@ document.addEventListener("DOMContentLoaded", function () {
       video.setAttribute("playsinline", "");
   });
 });
-

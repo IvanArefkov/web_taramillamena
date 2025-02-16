@@ -93,9 +93,11 @@ hr {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adds shadow */
 }
 video {
-  pointer-events: none;
+  will-change: transform;
 }
-
+/* video {
+  pointer-events: none;
+} */
 
 /* animation attemnpt */
 
